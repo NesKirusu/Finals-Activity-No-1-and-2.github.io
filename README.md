@@ -1,10 +1,7 @@
 # Finals-Activity-No-1-and-2
 
 TODO:
--fix footer
--fix contact image size
--fix hamburger color
--add reviews page
+NONE
 
 Inspo: https://www.bierkulturluzern.ch/
 
