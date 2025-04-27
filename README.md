@@ -1,5 +1,11 @@
 # Finals-Activity-No-1-and-2
 
+TODO:
+fix footer
+fix contact image size
+fix hamburger color
+
+
 Inspo: https://www.bierkulturluzern.ch/
 
 https://www.shapedivider.app/
