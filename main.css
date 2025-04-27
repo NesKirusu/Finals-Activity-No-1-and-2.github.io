@@ -2,6 +2,12 @@
     font-family: tanker;
     src: url(typography/Tanker-Regular.ttf);
 }
+::-webkit-scrollbar{
+    background-color: var(--primary2);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--primary);
+}
 
 :root{
     --primary: #ff7f30;
@@ -132,7 +138,7 @@
 }
 .custom-text{
     font-family: tanker;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 .custom-text-hover{
     color: beige;
@@ -184,4 +190,23 @@
 .videoplayer{
     width: 100%;
     border: 2px solid var(--primary2);
+}
+
+.custom-splash{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+    z-index: 1000;
+    animation: slide-bottom 2s 5s ease-in-out forwards;
+}
+@keyframes slide-bottom{
+    0%{
+        min-height: 100vh;
+    }
+    100%{
+        min-height: 0%;
+    }
 }
